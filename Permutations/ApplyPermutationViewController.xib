@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ApplyPermutationViewController">
+            <connections>
+                <outlet property="appliedOutput" destination="kNJ-FG-qVc" id="nta-4s-E6p"/>
+                <outlet property="applyLabel" destination="wQv-Px-5e6" id="ebL-8f-Oak"/>
+                <outlet property="submitApply" destination="yAM-O4-yVw" id="Ghh-gf-lBy"/>
+                <outlet property="toApply" destination="Ao6-C5-3s1" id="8yc-Ot-wTH"/>
+                <outlet property="view" destination="iN0-l3-epB" id="DP6-WA-vdJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Apply permutation:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQv-Px-5e6" userLabel="&quot;Apply permutation&quot;">
+                    <rect key="frame" x="238" y="132" width="146" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ao6-C5-3s1" userLabel="Permutation to apply input">
+                    <rect key="frame" x="189" y="161" width="245" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" returnKeyType="go"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="iNb-IR-ZOb"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAM-O4-yVw" userLabel="Apply permutation submit">
+                    <rect key="frame" x="280" y="199" width="62" height="30"/>
+                    <state key="normal" title="Submit">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="applySubmitted:" destination="-1" eventType="touchUpInside" id="M4S-VL-hOr"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNJ-FG-qVc" userLabel="Applied output">
+                    <rect key="frame" x="189" y="237" width="245" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.1725457702" green="0.1725457702" blue="0.1725457702" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="Ao6-C5-3s1" secondAttribute="centerX" id="1ti-UD-jXQ"/>
+                <constraint firstAttribute="centerX" secondItem="kNJ-FG-qVc" secondAttribute="centerX" id="QLS-GU-Rzj"/>
+                <constraint firstAttribute="centerX" secondItem="wQv-Px-5e6" secondAttribute="centerX" id="agw-5M-HVc"/>
+                <constraint firstAttribute="centerX" secondItem="yAM-O4-yVw" secondAttribute="centerX" id="l35-4B-Fk5"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

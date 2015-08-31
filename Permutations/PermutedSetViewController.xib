@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PermutedSetViewController">
+            <connections>
+                <outlet property="permutedSet" destination="g0w-Cs-7Yc" id="656-BN-4Uw"/>
+                <outlet property="permutedSetLabel" destination="scx-qC-r1p" id="Tng-Hv-fhT"/>
+                <outlet property="permutedSetOutput" destination="M8p-Rp-Zjg" id="ZBk-Nm-85i"/>
+                <outlet property="submitPermutedSet" destination="Ytb-4e-93K" id="uun-u8-UGG"/>
+                <outlet property="view" destination="iN0-l3-epB" id="kHm-Wn-Zla"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ytb-4e-93K" userLabel="Permuted set submit">
+                    <rect key="frame" x="269" y="159" width="62" height="30"/>
+                    <state key="normal" title="Submit">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="permutedSetSubmitted:" destination="-1" eventType="touchUpInside" id="s8m-wp-bs7"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g0w-Cs-7Yc" userLabel="Permuted set input">
+                    <rect key="frame" x="178" y="121" width="245" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" returnKeyType="go"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="XYv-Lr-Sfc"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8p-Rp-Zjg" userLabel="From permuted set output">
+                    <rect key="frame" x="178" y="197" width="245" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.1725457702" green="0.1725457702" blue="0.1725457702" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Permutation from permuted set:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scx-qC-r1p" userLabel="&quot;Permutation from permuted set&quot;">
+                    <rect key="frame" x="178" y="92" width="245" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="g0w-Cs-7Yc" secondAttribute="centerX" id="Hlx-NX-yJL"/>
+                <constraint firstAttribute="centerX" secondItem="Ytb-4e-93K" secondAttribute="centerX" id="Iw9-zh-b91"/>
+                <constraint firstAttribute="centerX" secondItem="scx-qC-r1p" secondAttribute="centerX" id="UY3-G0-O8D"/>
+                <constraint firstAttribute="centerX" secondItem="M8p-Rp-Zjg" secondAttribute="centerX" id="gjO-Go-57O"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

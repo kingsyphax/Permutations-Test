@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A35C092D1AD385DB00FAF480 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A35C091B1AD385DB00FAF480 /* AppDelegate.m */; };
+		A35C092E1AD385DB00FAF480 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A35C091C1AD385DB00FAF480 /* LaunchScreen.xib */; };
+		A35C092F1AD385DB00FAF480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35C091E1AD385DB00FAF480 /* Main.storyboard */; };
+		A35C09321AD385DB00FAF480 /* PermutationsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A35C09251AD385DB00FAF480 /* PermutationsModel.m */; };
+		A35C09341AD385DB00FAF480 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35C09281AD385DB00FAF480 /* Images.xcassets */; };
+		A35C09361AD385DB00FAF480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A35C092A1AD385DB00FAF480 /* main.m */; };
+		A3FBC1A81ADD944F00E56B4D /* PermutedSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FBC1A71ADD944F00E56B4D /* PermutedSetViewController.m */; };
+		A3FBC1AA1ADD949700E56B4D /* PermutedSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3FBC1A91ADD949700E56B4D /* PermutedSetViewController.xib */; };
+		A3FBC1AD1ADD969C00E56B4D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FBC1AC1ADD969C00E56B4D /* RootViewController.m */; };
+		A3FBC1E51ADD987800E56B4D /* ApplyPermutationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FBC1E41ADD987800E56B4D /* ApplyPermutationViewController.m */; };
+		A3FBC1E91ADD98E500E56B4D /* ApplyPermutationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3FBC1E81ADD98E500E56B4D /* ApplyPermutationViewController.xib */; };
+		A3FBC1EC1AE09EE700E56B4D /* SimplifyPermutationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FBC1EB1AE09EE700E56B4D /* SimplifyPermutationViewController.m */; };
+		A3FBC1EE1AE09F3600E56B4D /* SimplifyPermutationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3FBC1ED1AE09F3600E56B4D /* SimplifyPermutationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A35C091A1AD385DB00FAF480 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A35C091B1AD385DB00FAF480 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A35C091D1AD385DB00FAF480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A35C091F1AD385DB00FAF480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A35C09241AD385DB00FAF480 /* PermutationsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermutationsModel.h; sourceTree = "<group>"; };
+		A35C09251AD385DB00FAF480 /* PermutationsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermutationsModel.m; sourceTree = "<group>"; };
+		A35C09281AD385DB00FAF480 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A35C09291AD385DB00FAF480 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35C092A1AD385DB00FAF480 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3BF77951AA952DB00089922 /* Permutations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Permutations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FBC1A61ADD943D00E56B4D /* PermutedSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermutedSetViewController.h; sourceTree = "<group>"; };
+		A3FBC1A71ADD944F00E56B4D /* PermutedSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermutedSetViewController.m; sourceTree = "<group>"; };
+		A3FBC1A91ADD949700E56B4D /* PermutedSetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PermutedSetViewController.xib; sourceTree = "<group>"; };
+		A3FBC1AB1ADD969C00E56B4D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A3FBC1AC1ADD969C00E56B4D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A3FBC1E31ADD987800E56B4D /* ApplyPermutationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyPermutationViewController.h; sourceTree = "<group>"; };
+		A3FBC1E41ADD987800E56B4D /* ApplyPermutationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyPermutationViewController.m; sourceTree = "<group>"; };
+		A3FBC1E81ADD98E500E56B4D /* ApplyPermutationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplyPermutationViewController.xib; sourceTree = "<group>"; };
+		A3FBC1EA1AE09EE700E56B4D /* SimplifyPermutationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplifyPermutationViewController.h; sourceTree = "<group>"; };
+		A3FBC1EB1AE09EE700E56B4D /* SimplifyPermutationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplifyPermutationViewController.m; sourceTree = "<group>"; };
+		A3FBC1ED1AE09F3600E56B4D /* SimplifyPermutationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimplifyPermutationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3BF77921AA952DB00089922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A35C09191AD385DB00FAF480 /* Permutations */ = {
+			isa = PBXGroup;
+			children = (
+				A35C091A1AD385DB00FAF480 /* AppDelegate.h */,
+				A35C091B1AD385DB00FAF480 /* AppDelegate.m */,
+				A35C091C1AD385DB00FAF480 /* LaunchScreen.xib */,
+				A35C091E1AD385DB00FAF480 /* Main.storyboard */,
+				A35C09241AD385DB00FAF480 /* PermutationsModel.h */,
+				A35C09251AD385DB00FAF480 /* PermutationsModel.m */,
+				A3FBC1AB1ADD969C00E56B4D /* RootViewController.h */,
+				A3FBC1AC1ADD969C00E56B4D /* RootViewController.m */,
+				A3FBC1E31ADD987800E56B4D /* ApplyPermutationViewController.h */,
+				A3FBC1E41ADD987800E56B4D /* ApplyPermutationViewController.m */,
+				A3FBC1E81ADD98E500E56B4D /* ApplyPermutationViewController.xib */,
+				A3FBC1A61ADD943D00E56B4D /* PermutedSetViewController.h */,
+				A3FBC1A71ADD944F00E56B4D /* PermutedSetViewController.m */,
+				A3FBC1A91ADD949700E56B4D /* PermutedSetViewController.xib */,
+				A3FBC1EA1AE09EE700E56B4D /* SimplifyPermutationViewController.h */,
+				A3FBC1EB1AE09EE700E56B4D /* SimplifyPermutationViewController.m */,
+				A3FBC1ED1AE09F3600E56B4D /* SimplifyPermutationViewController.xib */,
+				A35C09281AD385DB00FAF480 /* Images.xcassets */,
+				A35C09291AD385DB00FAF480 /* Info.plist */,
+				A35C092A1AD385DB00FAF480 /* main.m */,
+			);
+			path = Permutations;
+			sourceTree = "<group>";
+		};
+		A3BF778C1AA952DB00089922 = {
+			isa = PBXGroup;
+			children = (
+				A35C09191AD385DB00FAF480 /* Permutations */,
+				A3BF77961AA952DB00089922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3BF77961AA952DB00089922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF77951AA952DB00089922 /* Permutations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3BF77941AA952DB00089922 /* Permutations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BF77BB1AA952DC00089922 /* Build configuration list for PBXNativeTarget "Permutations" */;
+			buildPhases = (
+				A3BF77911AA952DB00089922 /* Sources */,
+				A3BF77921AA952DB00089922 /* Frameworks */,
+				A3BF77931AA952DB00089922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Permutations;
+			productName = Hangman;
+			productReference = A3BF77951AA952DB00089922 /* Permutations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3BF778D1AA952DB00089922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Pineapple Bears";
+				TargetAttributes = {
+					A3BF77941AA952DB00089922 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A3BF77901AA952DB00089922 /* Build configuration list for PBXProject "Permutations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3BF778C1AA952DB00089922;
+			productRefGroup = A3BF77961AA952DB00089922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3BF77941AA952DB00089922 /* Permutations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3BF77931AA952DB00089922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FBC1EE1AE09F3600E56B4D /* SimplifyPermutationViewController.xib in Resources */,
+				A35C092F1AD385DB00FAF480 /* Main.storyboard in Resources */,
+				A3FBC1E91ADD98E500E56B4D /* ApplyPermutationViewController.xib in Resources */,
+				A35C09341AD385DB00FAF480 /* Images.xcassets in Resources */,
+				A35C092E1AD385DB00FAF480 /* LaunchScreen.xib in Resources */,
+				A3FBC1AA1ADD949700E56B4D /* PermutedSetViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3BF77911AA952DB00089922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FBC1E51ADD987800E56B4D /* ApplyPermutationViewController.m in Sources */,
+				A3FBC1A81ADD944F00E56B4D /* PermutedSetViewController.m in Sources */,
+				A35C092D1AD385DB00FAF480 /* AppDelegate.m in Sources */,
+				A3FBC1AD1ADD969C00E56B4D /* RootViewController.m in Sources */,
+				A3FBC1EC1AE09EE700E56B4D /* SimplifyPermutationViewController.m in Sources */,
+				A35C09321AD385DB00FAF480 /* PermutationsModel.m in Sources */,
+				A35C09361AD385DB00FAF480 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A35C091C1AD385DB00FAF480 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A35C091D1AD385DB00FAF480 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A35C091E1AD385DB00FAF480 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A35C091F1AD385DB00FAF480 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3BF77B91AA952DC00089922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3BF77BA1AA952DC00089922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3BF77BC1AA952DC00089922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Permutations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Permutations;
+			};
+			name = Debug;
+		};
+		A3BF77BD1AA952DC00089922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Permutations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Permutations;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3BF77901AA952DB00089922 /* Build configuration list for PBXProject "Permutations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BF77B91AA952DC00089922 /* Debug */,
+				A3BF77BA1AA952DC00089922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3BF77BB1AA952DC00089922 /* Build configuration list for PBXNativeTarget "Permutations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BF77BC1AA952DC00089922 /* Debug */,
+				A3BF77BD1AA952DC00089922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3BF778D1AA952DB00089922 /* Project object */;
+}
